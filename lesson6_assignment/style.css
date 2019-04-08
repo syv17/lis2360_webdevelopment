@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* CSS Document created originally by Christy Chatmon,edited by Sophia Vo, Spring 2019*/
+
+body {
+	font-family: Georgia, Times, Courier, serif;
+	font-size: 16px;
+	line-height: 1.4em;
+	color: #09040F;
+	background-color: #FF6F4D;
+	padding: 0 10px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.05em;
+	color: #FFFFF8;
+}
+h1 {
+	font-size: 40px;
+	padding: 0.5px 0;
+	font-variant: normal;
+	letter-spacing: 0.05em;
+	line-height: 0.5em;
+}
+h2 {
+	font-size: 30px;
+	line-height: 1.4em;
+	padding: 5px;
+	font-variant: normal;
+	letter-spacing: 0.05em;
+	background-color: #E83767;
+}
+h3 {
+	font-size: 20px;
+	letter-spacing: 0.05em;
+	border-bottom-width: 2px;
+	border-bottom-style: ridge;
+	border-bottom-color: #AF00FF;
+	padding: 2px 0;
+	font-variant: normal;
+	font-style: oblique;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bolder;
+	color: #AF00FF;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: lighter;
+	color: #FFFFF8;
+	text-decoration: none;
+}
+a:hover {
+	color: #E83767;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 5px;
+}
+ol {
+	margin-left: 5px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: ridge #AF00FF 2px;
+}
+td {
+	padding: 8px;
+	border: ridge #AF00FF 2px;
+}
+th {
+	font-weight: bolder;
+	background-color: #E83767;
+	text-align: justify;
+	padding: 8px;
+	border: ridge #AF00FF 2px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: ridge #09040F 2px;
+}
+
+img {
+	border: ridge #E83767 2px;
+
+}
+
+iframe {
+	border: ridge #E83767 2px;
+	padding: 10px;
+	margin: 10px;
+}
