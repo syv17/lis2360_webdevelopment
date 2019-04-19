@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* CSS Document created originally by Christy Chatmon,edited by Sophia Vo, Spring 2019*/
+
+body {
+	margin: 0 auto;
+	font-family: Georgia, Times, Courier, serif;
+	font-size: 16px;
+	line-height: 1.4em;
+	color: #09040F;
+	background-color: #09040F;
+	padding: 0 auto;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.05em;
+	color: #FFFFF8;
+	padding: 10px 40px;
+}
+h1 {
+	font-size: 40px;
+	padding: 10px 40px;
+	font-variant: normal;
+	letter-spacing: 0.05em;
+	line-height: 0.5em;
+}
+h2 {
+	font-size: 30px;
+	line-height: 1.4em;
+	padding: 10px;
+	font-variant: normal;
+	letter-spacing: 0.05em;
+	background-color: #E83767;
+	width: 98%;
+	border-color: #AF00FF;
+	border-style: double;
+}
+h3 {
+	font-size: 20px;
+	letter-spacing: 0.05em;
+	border-bottom-width: 2px;
+	border-bottom-style: ridge;
+	border-bottom-color: #AF00FF;
+	padding: 2px 0;
+	font-variant: normal;
+	font-style: oblique;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bolder;
+	color: #AF00FF;
+	text-decoration: none;
+
+}
+a:visited {
+	font-weight: lighter;
+	color: #FFFFF8;
+	text-decoration: none;
+}
+a:hover {
+	color: #09040F;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 5px;
+}
+ol {
+	margin-left: 5px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: hidden #AF00FF 3px;
+	padding: 5px 40px;
+}
+td {
+	padding: 8px;
+	border: ridge #AF00FF 2px;
+}
+th {
+	font-weight: bolder;
+	background-color: #E83767;
+	text-align: justify;
+	padding: 8px;
+	border: ridge #AF00FF 2px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: ridge #09040F 2px;
+}
+
+img {
+	border-bottom: ridge #09040F 2px;
+
+}
+
+iframe {
+	border: ridge #E83767 2px;
+	padding: 10px;
+	margin: 10px;
+}
+
+/* div styles for page layout ------------------------ */
+#container {
+	margin: 0 auto;
+	width: 1195.08px;
+	border: 3px solid #E83767;
+	background-color: #FF6F4D;
+	overflow: hidden;
+	padding: 40px;
+	
+}
+	
+#header {
+	width: 1195.08px;
+	background-color: #E83767;
+	border-bottom: 3px solid #09040F;
+}
+
+#content {
+	width: 845;
+	padding-bottom: 40px;
+	float: left;
+}
+
+#sidebar {
+	width: 350px;
+	float: left;
+	margin-top: 110px;
+}
+#sidebar p {
+	border-style: double;
+	border-radius: 20px;
+	border-color: #AF00FF;
+	padding: 10px 40px;
+	background-color: #09040F;
+	box-shadow: 10px 10px 5px;
+}
+
+#footer  {
+	width: 100%;
+	background-color: #FF6F4D;
+	border-top: 3px solid #09040F;
+	clear: both;
+	text-align: left;
+}
