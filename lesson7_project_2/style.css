@@ -1,0 +1,175 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+        margin: 0;
+        padding: 0;
+        font-family: "PT Serif", Georgia, Times, Courier, serif;
+}
+
+img {
+        padding-top: 20px;
+}
+
+iframe {
+        
+        padding-left: 270px;
+}
+
+a:link {
+	color: #AF00FF;
+	font-size: 20px;
+
+}
+a:visited {
+	color: #FFFFF8;
+	font-size: 20px;
+}
+a:hover {
+	color: #09040F;
+	font-size: 20px;
+}
+
+#me-page img {
+        
+        float: left;
+        padding: 0px 10px 30px 0px;
+}
+
+#splash{
+        height: 500px;
+        background: url(images/splashpic1.png) no-repeat center top fixed;
+        background-size: cover;
+}
+
+#EventPlanning{
+        background-color: #E83767;
+        padding-top: 50px;
+}
+
+#Media{
+        background: url(images/mediabg.png) no-repeat center top fixed;
+        background-size: cover;
+        padding-top: 50px;
+}
+
+#Author{
+        background-color: #AF00FF;
+        padding-top: 50px;
+}
+
+#Footer{
+        background-color: #FF6F4D;
+        padding-top: 50px;
+}
+.container {
+        width: 1100px; /* static width container always stays at this width no matter the window size. */
+        margin: 0 auto;
+        overflow: hidden;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: hidden #AF00FF 3px;
+	padding: 5px 40px;
+}
+td {
+	padding: 8px;
+	border: ridge #AF00FF 2px;
+}
+th {
+	font-weight: bolder;
+	background-color: #FF6F4D;
+	text-align: justify;
+	padding: 8px;
+	border: ridge #AF00FF 2px;
+}
+
+/* ---- side bar styles ---- */
+
+#sidebar {
+	width: 350px;
+	float: right;
+	margin-top: 80px;
+}
+#sidebar p {
+	border-style: double;
+	border-radius: 20px;
+	border-color: #FFFFF8;
+	padding: 10px 40px;
+	background-color: #E83767;
+	box-shadow: 10px 10px 5px;
+}
+
+/* ---------------- TITLE PAGE STYLES ------------------- */
+
+#title-page{
+  width: 100%;
+  padding: 50px 0px 0px 50px; /* provides a lot of space above title to view the background image */
+  color: #09040F;
+  text-align: left;
+}
+#title-page h1 {
+  font-family: 'PT Serif', serif; /* PT Serif is a Google Font - see link in head of index.html */
+  font-size: 80px; 
+  text-shadow: 3px 3px #FFFFF8; /* Shadow helps text to stand out from background */
+}
+
+#title-page h2 {
+  font-size: 2.5em;
+  font-style: italic;
+  margin: 0 40px;
+  padding: 20px 20px 20px 270px;
+  text-shadow: 2px 2px #FFFFF8;
+}
+
+#title-page h3 {
+  font-size: 2em;
+  font-style: italic;
+  margin: 0 40px;
+  padding-bottom: 20px;
+  text-shadow: 2px 2px #FFFFF8;
+}
+
+/* --------- video page styles ---------- */
+
+#video-page h2 {
+  font-size: 2.5em;
+  font-style: italic;
+  margin: 0 40px;
+  padding: 20px 20px 20px 340px;
+  text-shadow: 2px 2px #FFFFF8;
+}
+
+/* --------- NAVIGATION BAR STYLES ----------- */
+
+#navbar{
+        position: fixed;
+        width: 100%;
+        background-color: rgba(9, 4, 15, 0.4);
+        height: 60px;
+}
+/* horizontal menu bars are typically created using a styled unordered list. Here's how!important */
+ul#menu {
+        
+        list-style: none; /* eliminates bullets */
+        /* adjust padding top to adjust nav bar vertical position */
+        padding-top: 0px;
+}
+ul#menu li {
+        float: left; /* changes list from vertical to horizontal */
+        padding-bottom: 15px;
+}
+
+ul#menu li a.button {
+        font-size: 20px;
+        /*color: rgba(9, 4. 15, 0.95);*/
+        text-decoration: none;
+        /* this padding defines the size of the buttoms */
+        padding: 20px 60px 20px 60px;
+}
+
+/* change button color when mouse hovers over */
+ul#menu li a.button:hover {
+        background-color: rgba(255, 111, 75, 0.5);
+}
